@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "local-llma"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+transformers = "^4.32.1"
+pandas = "^2.1.0"
+llama-cpp-python = "^0.1.83"
+ctransformers = {extras = ["cuda"], version = "^0.2.26"}
+#https://github.com/marella/ctransformers
+gradio = "^3.41.2"
+torch = "^2.0.1"
+ 
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
