@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.10.9"
+python = "3.11.4"
 transformers = "^4.32.1"
 pandas = "^2.1.0"
 llama-cpp-python = "^0.1.83"
@@ -14,6 +14,9 @@ ctransformers = {extras = ["cuda"], version = "^0.2.26"}
 #https://github.com/marella/ctransformers
 gradio = "^3.41.2"
 torch = "^2.0.1"
+pip = "^23.2.1"
+setuptools = "^68.1.2"
+wheel = "^0.41.2"
  
 
 

@@ -15,12 +15,14 @@ prompt_template = f"""
 #model = ".\models\codellama-13b-instruct.Q5_K_M.gguf"
 model = ".\models\phind-codellama-34b-v2.Q5_K_M.gguf"
 
+config = Config(top_k=40, top_p=0.95, temperature=0.8, repetition_penalty=1.1, last_n_tokens=64, seed=-1, batch_size=8, threads=-1, max_new_tokens=512, stop=None, stream=False, reset=True, context_length=-1, gpu_layers=0, mmap=True, mlock=False)
+auto_config = AutoConfig(config,"llama")
+
 def load_llm():
     #might need to add config here
     llm = AutoModelForCausalLM.from_pretrained(
         model,
-        model_type="llama",
-        
+        config=auto_config
     )
     print(llm.config)
     return llm
