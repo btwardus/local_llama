@@ -9,4 +9,6 @@ def check_cuda():
         print("CUDA is not available.")
 
 # Usage
+print(torch.version.cuda)
+
 check_cuda()

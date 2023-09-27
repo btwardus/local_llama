@@ -17,6 +17,8 @@ torch = "^2.0.1"
 pip = "^23.2.1"
 setuptools = "^68.1.2"
 wheel = "^0.41.2"
+open-interpreter = "^0.1.4"
+accelerate = "^0.23.0"
  
 
 

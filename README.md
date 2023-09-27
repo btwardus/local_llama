@@ -1,6 +1,6 @@
 # What is this?
 
-simple UI for testing local code/chat models
+simple UI for testing local code/chat models as well as open interpreter
 
 poetry for dependency mangment
 
@@ -22,5 +22,21 @@ https://huggingface.co/TheBloke/WizardCoder-Python-34B-V1.0-GPTQ
 # top model model comparison
 https://github.com/emrgnt-cmplxty/zero-shot-replication
 
-
 https://paperswithcode.com/sota/code-generation-on-humaneval
+gpt4 reflection 
+
+# resources
+- https://github.com/turboderp/exllama
+- https://github.com/turboderp/exllamav2
+- https://github.com/noahshinn024/reflexion
+- https://www.reddit.com/r/LocalLLaMA/comments/14fqfdu/how_to_use_langchain_with_exllama/
+- https://github.com/KillianLucas/open-interpreter
+- https://github.com/abetlen/llama-cpp-python
+
+# Wizard coder benchmarks
+![Alt text](/resources/image.png)
+
+
+# Open Interpreter setup
+https://github.com/KillianLucas/open-interpreter/blob/main/docs/GPU.md
+
